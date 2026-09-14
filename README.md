@@ -2,7 +2,8 @@
 
 <p align="center">
   <a href="https://aiclicks.io/">
-    <img src="<img width="1650" height="933" alt="image" src="https://github.com/user-attachments/assets/acb12123-fa35-4ccd-b61f-bcc8f224e865" />
+  <img width="1650" height="933" alt="image" src="https://github.com/user-attachments/assets/7e6dd4f0-473d-4711-9415-0c4030880da7" />
+
 " alt="best-reddit-tools" />
   </a>
 </p>
