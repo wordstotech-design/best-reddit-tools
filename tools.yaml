@@ -1,0 +1,68 @@
+# Source dataset for the comparison table in README.md.
+# Run `python render_table.py --write` after editing to regenerate the table.
+# Facts (pricing, Reddit coverage, positioning) verified against vendor
+# pricing pages and public docs in September 2026 and change often.
+# reddit_role states the actual job the tool solves for Reddit specifically,
+# not a generic "social listening" label. That is the organizing idea of
+# this list: source discovery is a different job from reply execution,
+# which is a different job again from enterprise firehose listening.
+# Row order groups tools by job, not by price: AI visibility source
+# discovery, done for you execution, free native, enterprise listening,
+# then budget monitoring.
+
+tools:
+  - name: AIclicks
+    url: https://aiclicks.io
+    reddit_role: "Source discovery tied to AI visibility and content strategy, not a posting or moderation tool"
+    coverage: "Reddit plus ChatGPT, Perplexity, Gemini, AI Overviews, Claude, and Grok"
+    price_from: "$59/mo"
+    best_for: "SEO and GEO teams that want Reddit threads ranked by AI visibility impact, not just counted"
+
+  - name: Replymer
+    url: https://replymer.com
+    reddit_role: "Done for you monitoring and human written reply execution across Reddit and X"
+    coverage: "Reddit and X"
+    price_from: "$99/mo"
+    best_for: "Teams that want replies published for them, not another dashboard to read"
+
+  - name: Reddit Pro
+    url: https://ads.reddit.com/reddit-pro
+    reddit_role: "Free native tools for community discovery, contribution guidance, and content tracking"
+    coverage: "Reddit only"
+    price_from: "Free"
+    best_for: "Early stage teams that want a native starting point before paying for anything"
+
+  - name: Brandwatch
+    url: https://www.brandwatch.com
+    reddit_role: "Enterprise listening with official Reddit firehose access as one input in a bigger stack"
+    coverage: "Reddit plus social, forums, blogs, and the wider web"
+    price_from: "Custom"
+    best_for: "Large brands running reputation and market research across many stakeholders"
+
+  - name: Talkwalker
+    url: https://www.talkwalker.com
+    reddit_role: "Enterprise listening built around reputation, crisis monitoring, and market intelligence"
+    coverage: "Reddit plus wider social, media, and web data"
+    price_from: "Custom"
+    best_for: "Organizations that need Reddit folded into a broader PR and insight workflow"
+
+  - name: Sprout Social
+    url: https://sproutsocial.com
+    reddit_role: "Reddit listening sold as a premium add on inside a multi channel social suite"
+    coverage: "Reddit via listening, plus other major social platforms"
+    price_from: "$199/seat/mo"
+    best_for: "Social teams that already run publishing and reporting through Sprout"
+
+  - name: Brand24
+    url: https://brand24.com
+    reddit_role: "Mid market real time subreddit monitoring with public, tiered pricing"
+    coverage: "Reddit plus social, blogs, news, and reviews"
+    price_from: "$199/mo"
+    best_for: "Teams that want transparent pricing and a workable dashboard without enterprise scale"
+
+  - name: Awario
+    url: https://awario.com
+    reddit_role: "Budget real time mention monitoring with lead finding and instant alerts"
+    coverage: "Reddit plus social, blogs, news, and reviews"
+    price_from: "$29/mo"
+    best_for: "Teams that just want to know when their name comes up, without a listening budget"
